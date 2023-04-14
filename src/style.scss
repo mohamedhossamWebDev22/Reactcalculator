@@ -58,6 +58,7 @@ body{
     
           td{      
             margin: 3%;    
+            
             button{
               font-size: 35px;
               width: 100%;
@@ -69,6 +70,9 @@ body{
               border-radius: 5%;
 
               margin: 3%;
+              &:hover{
+                filter: contrast(25);
+              }
             }
             .op{
               background: rgb(121, 0, 0);
