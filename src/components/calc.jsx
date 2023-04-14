@@ -1,7 +1,5 @@
 import {React, useState} from "react";
 
-import { convertUnicode } from "./unicode";
-
 var valueT= '';
 
 const Calc = (props) => {
