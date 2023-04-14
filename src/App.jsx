@@ -1,16 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import Screen from "./components/screen";
-import Btns from "./components/btns";
+import Calc from "./components/calc";
 
 const App = () => {
   return (
     <>
       <div className="calc">
         <p>EgyCalc</p>
-        <Screen value={0}/>
-
-        <Btns/>
+        <Calc/>
       </div>
     </>
   );
